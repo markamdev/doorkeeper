@@ -1,11 +1,13 @@
 package main
 
 import (
+	"github.com/markamdev/doorkeeper/lifecycle"
 	"github.com/markamdev/doorkeeper/logger"
-	"github.com/namsral/flag"
 )
 
 func main() {
 	logger.LogDebug("login-creator service")
-	flag.Parse()
+
+	lifecycle.WaitForSigint()
+	logger.LogDebug("... closing application")
 }
