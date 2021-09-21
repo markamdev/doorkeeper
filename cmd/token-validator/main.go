@@ -1,9 +1,9 @@
 package main
 
 import (
-	"fmt"
+	"github.com/markamdev/doorkeeper/logger"
 )
 
 func main() {
-	fmt.Println("token-validator stub from go-kick-off")
+	logger.LogDebug("authenticator service")
 }
