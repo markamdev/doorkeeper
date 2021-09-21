@@ -1,9 +1,11 @@
 package main
 
 import (
-	"fmt"
+	"github.com/markamdev/doorkeeper/logger"
+	"github.com/namsral/flag"
 )
 
 func main() {
-	fmt.Println("login-creator stub from go-kick-off")
+	logger.LogDebug("login-creator service")
+	flag.Parse()
 }
