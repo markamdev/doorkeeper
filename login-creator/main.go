@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/markamdev/doorkeeper/lifecycle"
-	"github.com/markamdev/doorkeeper/logger"
+	"login-creator/lifecycle"
+	"login-creator/logger"
 )
 
 func main() {
